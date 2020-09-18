@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/DarkBlue"
+            android:layout_marginTop="0dp">
+            <include layout="@layout/toolbar_layout"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/verification_phone_foreground"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHONE NUMBER VERIFICATIONS"
+                android:textColor="@color/bluegreen500">
+
+            </TextView>
+            <Spinner
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:entries="@array/spinner_countries"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-4dp"
+                android:layout_marginLeft="-4dp"
+                android:textColor="@color/bluegreen300"
+                android:id="@+id/phone"
+                android:drawableLeft="@drawable/ic_call_black_24dp"
+                android:inputType="phone">
+
+            </com.google.android.material.textfield.TextInputEditText>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:text="we will send you one time verification sms kindly enter the code provided,carrier rates may apply"
+                android:textColor="@color/bluegreen500">
+
+            </TextView>
+            <Button
+                android:id="@+id/next_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_next_btn"
+                android:layout_marginTop="40dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

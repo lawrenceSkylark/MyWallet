@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:title="Home">
+
+        </item>
+        <item
+            android:id="@+id/profile"
+            android:title=" My Profile">
+
+        </item>
+        <item
+            android:id="@+id/myWallet"
+            android:title="MY Wallet">
+
+        </item>
+        <item
+            android:id="@+id/history"
+            android:title="Purchase History">
+
+        </item>
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/Developer"
+                android:title="Developer">
+
+            </item>
+
+            <item
+                android:id="@+id/Help"
+                android:title="Help">
+
+            </item>
+            <item
+                android:id="@+id/share"
+                android:title="share">
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>

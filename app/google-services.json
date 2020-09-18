@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "708924090096",
+    "firebase_url": "https://mywallet-acaa4.firebaseio.com",
+    "project_id": "mywallet-acaa4",
+    "storage_bucket": "mywallet-acaa4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708924090096:android:382cbd307b6ae5fcd70435",
+        "android_client_info": {
+          "package_name": "com.example.lawrence.mywallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708924090096-bk4bvfk7982bd8gpui2u2cv0881octrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lawrence.mywallet",
+            "certificate_hash": "fc5ca653d810f57140f5a42471e08095eb162924"
+          }
+        },
+        {
+          "client_id": "708924090096-4089j48gkgemav2kjtloebr2g50t5oj5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQFx1RopQWuJ9nx-Po_BkbGF0yTiv77Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708924090096-4089j48gkgemav2kjtloebr2g50t5oj5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
